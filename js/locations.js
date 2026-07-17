@@ -58,7 +58,7 @@ const biens = [
     {
 		type:"Apparement",
         titre: "Apparement haut standing",
-        image: "images/Villa6.jpeg",
+        image: "images/villa6.jpeg",
         localisation: "Ouakam",
         caracteristiques: "4 pièces 190 m²",
         description: "Appartement haut standing avec ascenseur, salle de sport, piscine commune et gardiennage permanent.",
