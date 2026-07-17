@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+  <title>ProjetImmo</title>
+  <meta charset='utf-8'/>
+  <link rel="stylesheet" href="css/global.css"/>
+  <link rel="stylesheet" href="css/detail.css"/>
+</head>   
+<body>   
+<header>
+ <img id="logo" src="images/logo.jpeg" alt="logo"/>
+ <h2>Trouvez plus qu'une maison,trouvez votre avenir</h2>
+</header>
+<nav>
+ <ul>
+  <li><a href="index.html">Accueil</a></li>
+  <li><a href="locations.html">Locations</a></li>
+  <li><a href="ventes.html">Ventes</a></li>
+  <li><a href="contact.html">Contact</a></li>
+ </ul>
+</nav>
+ <div id="contenu1">
+  
+    <div class="carrousel">
+    <button class="precedent" onclick="imagePrecedente()">&#10094;</button>
+
+    <img id="imageprincipale" src="" alt="Image du bien">
+
+    <button class="suivant" onclick="imageSuivante()">&#10095;</button>
+    </div>
+
+   <div class="miniatures">
+    <img id="img1" src="images/s5.jpeg" onclick="changerImage(0)">
+    <img id="img2" src="images/d5.jpeg"onclick="changerImage(1)">
+    <img id="img3" src="images/c5.jpeg"onclick="changerImage(2)">
+    <img id="img4" src="images/ch5.jpeg"  onclick="changerImage(3)">
+   </div>
+ 
+   <div id="infos">
+
+        <h1 id="titre"> Villa face a l'Océan</h1>
+
+        <p><strong>Prix :</strong> <span id="prix">2 300 000 FCFA / mois</span></p>
+
+        <p><strong>Quartier :</strong> <span id="quartier">📍 Ngor</span></p>
+
+        <p> <strong>Description:
+       </strong><span id="description">Offrez-vous un cadre de vie exceptionnel avec cette somptueuse 
+		villa située en bord de mer, offrant une vue panoramique imprenable sur l'océan. Alliant
+		architecture contemporaine, finitions haut de gamme et espaces généreux, cette propriété 
+		est conçue pour offrir un confort absolu. Dès l'entrée, vous découvrirez un vaste salon
+		lumineux grâce à ses grandes baies vitrées, une élégante salle à manger et une cuisine
+		moderne entièrement équipée avec des matériaux de qualité supérieure. La villa comprend
+		plusieurs chambres spacieuses, dont une magnifique suite parentale avec dressing, salle
+		de bain privative et balcon privé donnant directement sur l'océan. Les autres chambres 
+		disposent également de salles de bain modernes et de nombreux espaces de rangement. 
+		À l'extérieur, une grande terrasse aménagée invite à la détente face au coucher du soleil,
+		tandis qu'une piscine à débordement, un jardin paysager soigneusement entretenu et un espace
+		barbecue créent un cadre idéal pour recevoir famille et amis. La propriété dispose également
+		d'un garage sécurisé, d'une cour spacieuse, de la climatisation, d'une connexion Internet
+		haut débit et d'un système de sécurité disponible 24h/24. Située dans un quartier 
+		résidentiel calme et prestigieux, à proximité des plages, restaurants, commerces et
+		autres commodités, cette villa constitue une opportunité rare pour ceux qui recherchent 
+		un style de vie luxueux, paisible et en parfaite harmonie avec la mer.</span></p>
+		
+		 <p> <strong>Superficie:</strong><span id="superficie">420 m²</span></p>
+
+    </div>
+ <a href="contact.html"><button id="contact">Contacter KSA</button></a><br/>
+  <span class="num">3</span>
+   <img class="image" src="images/toilet.jpeg"/>
+    <span class="num">3</span>
+   <img class="image" src="images/chambre.jpeg"/>
+    <span class="num">1</span>
+   <img class="image" src="images/cuisine.jpeg"/>
+    <span class="num">2</span>
+   <img class="image" src="images/salon.jpeg"/>
+
+
+
+
+
+
+
+
+
+</div>
+<footer>
+<div id='parti'>
+  <div id="parti3">
+  <h2> KSA Immobiliere</h2>
+  <img id="footerlogo" src="images/footerlogo.jpeg" alt="logo"/>
+  </div>
+  <div id="parti1">
+  
+  <p>Toujous En Quête De Votre Satisfaction </p>
+      <h2> Suivez nous sur</h2>
+	             
+                  <a href="https://www.facebook.com/share/18E9Hh24gG/?mibextid=wwXlfr"  target="_blank"> <img src="images/FACEBOOK1.jpeg"/> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	              <a href="https://wa.me/221769299211"  target="_blank" > <img src="images/WHATSAPP1.jpeg"> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	              <a href="https://www.instagram.com/zeynab.faye1"  target="_blank"> <img src="images/INSTA1.jpeg"/> </a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  </div>
+  <div id="parti2">
+  <h2> Notre offre</h2>
+   <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="ventes.html">Ventes</a></li>
+        <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </div>
+</div>
+  <hr> 
+  <p id="p1">&copy 2026 KSA IMMOBILIERE  &nbsp&nbsp&nbsp&nbsp Tous droits réservés</p><p id="p2">
+  Conçu par Khadija Ba,Seynabou Faye et Matar Amar</p>
+
+
+</footer>
+  <script src="js/bien-loc.js"></script>
+
+</body>
+</html> 

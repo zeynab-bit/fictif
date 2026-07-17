@@ -1,0 +1,61 @@
+
+#inf
+{
+	display:inline-block;
+	width:40%;
+	
+}
+#inf ul li{
+	line-height:200%;
+}	
+#inf h2
+{
+	text-decoration:underline;
+}
+#for
+{
+	display:inline-block;
+	vertical-align:top;
+	width:40%;
+	margin-left:20%;
+}
+#for h2 
+{
+	text-align:center;
+	text-decoration:underline;
+}
+#contenu{
+    display: flex;
+    margin: 40px;
+	min-height:1500px;
+	font-size:120%;
+}
+
+form{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 8px;
+	width:100%;
+}
+
+input, textarea{
+    width: 85%;
+    padding: 5%;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: #6F4427;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#envoyer
+{
+	margin-left:150px;
+}
+label
+{
+	font-weight:bold;
+}

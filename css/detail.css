@@ -1,0 +1,99 @@
+.carrousel{
+    width:95%;
+    margin:auto;
+	padding-left:5%;
+}
+
+.carrousel img{
+    width:85%;
+    height:450px;
+    border-radius:10px;
+}
+
+.precedent,
+.suivant{
+    position:absolute;
+    top:300px;
+    font-size:35px;
+    border:none;
+    background:rgba(0,0,0,0.4);
+    color:white;
+    padding:10px;
+}
+
+.precedent{
+    left:12%;
+}
+
+.suivant{
+    right:9%;
+}
+
+.miniatures{
+    margin-top:15px;
+	margin-left:30%;
+  
+}
+
+.miniatures img{
+    width:15%;
+    height:80px;
+    border:2px solid transparent;
+}
+
+.miniatures img:hover{
+    border:2px solid #A67C52;
+}
+
+
+/*css pour la mise en forme du texte*/
+#contenu1
+{
+	width:100%;
+	margin-left:5%;
+	min-height:1500px;
+}
+#titre
+{
+	text-align:center;
+}
+#infos
+{
+   text-align:center;
+  
+
+}
+#prix
+{
+	font-size:120%;
+}
+#quartier
+{
+	font-size:120%;
+}
+#description
+{
+	font-size:120%;
+}
+#superficie
+{
+font-size:120%;
+}
+#contact
+{
+	width:200px;
+	margin-left:550px;
+	background:#A67C52;
+	height:30px;
+}
+.image
+{
+
+	height:50px;
+	width:50px;
+	vertical-align:middle;
+}
+.num
+{
+	padding-left:30px;
+}
