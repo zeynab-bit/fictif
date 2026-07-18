@@ -117,22 +117,22 @@ var texte = "";
 for (var i = 0; i < biens.length; i++) {
 
     texte = texte +
-    "<article class='bloc'>" +
+    "<article id='bloc'>" +
 
-        "<div class='bloc1'>" +
+        "<div id='bloc1'>" +
             "<a href='" + biens[i].lien + "'>" +
                 "<img src='" + biens[i].image + "' alt='" + biens[i].titre + "'>" +
             "</a>" +
         "</div>" +
 
-        "<div class='bloc2'>" +
+        "<div id='bloc2'>" +
             "<p id='type'>" + biens[i].type + "</p>" +
             "<h3 id='titre'>" + biens[i].titre + "</h3>" +
-            "<p>" + biens[i].localisation + "</p>" +
-            "<p>" + biens[i].caracteristiques + "</p>" +
-            "<p>" + biens[i].description + "</p>" +
-            "<h3 class='prix'>" + biens[i].prix + "</h3>" +
-            "<a href='" + biens[i].lien + "'>Cliquez sur l'image</a>" +
+            "<p id='localisation'>" + biens[i].localisation + "</p>" +
+            "<p >" + biens[i].caracteristiques + "</p>" +
+            "<p id='description'>" + biens[i].description + "</p>" +
+            "<h3 id='prix'>" + biens[i].prix + "</h3>" +
+            "<a href=" + biens[i].lien + ">Voir plus</a>" +
         "</div>" +
 
     "</article>";

@@ -1,5 +1,5 @@
 #corps{
-    width:100%;
+    width:98%;
     margin:auto;
 	min-height:1000px;
 }
@@ -65,19 +65,19 @@
     margin-bottom:15px;
 }
 
-.localisation{
+#localisation{
     color:black;
     margin-bottom:15px;
 }
 /*le petite description*/
-.description{
+#description{
     line-height:1.6;
     margin:20px 0;
 }
 
 
 /* mettre en valeur le prix*/
-.prix{
+#prix{
     margin-bottom:20px;
     display:inline-block;
     margin-top:20px;
@@ -125,7 +125,7 @@
     align-items:center;
     padding-left:70px;
     margin-bottom:60px;
-	width:100%;
+	width:97%;
 }
 
 #Htx{

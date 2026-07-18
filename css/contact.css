@@ -17,7 +17,7 @@
 	display:inline-block;
 	vertical-align:top;
 	width:40%;
-	margin-left:20%;
+	margin-left:10%;
 }
 #for h2 
 {
@@ -25,9 +25,8 @@
 	text-decoration:underline;
 }
 #contenu{
-    display: flex;
     margin: 40px;
-	min-height:1500px;
+	min-height:1000px;
 	font-size:120%;
 }
 

@@ -1,17 +1,25 @@
-body
-{
-	width:100%;
-	background:linear-gradient(to top, tan,#FFDAB9,white, tan,white, white,white);	
+	body
+	{
+		width:98%;
+		background:linear-gradient(to top, tan,#FFDAB9,white, tan,white, white,white);	
 
-}
+	}
 	 header
 	{
 		height:80px;
 	}
-	header #logo
+	header #logo1
 	{
 		height:100%;
 		display:inline-block;
+		float:right;
+		
+	}
+	header #logo2
+	{
+		height:100%;
+		display:inline-block;
+		float:left;
 	}
 	header h2{
 		display:inline-block;

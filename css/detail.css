@@ -1,19 +1,19 @@
-.carrousel{
+#carrousel{
     width:95%;
     margin:auto;
 	padding-left:5%;
 }
 
-.carrousel img{
+#carrousel img{
     width:85%;
     height:450px;
     border-radius:10px;
 }
 
-.precedent,
-.suivant{
+#precedent,
+#suivant{
     position:absolute;
-    top:300px;
+    margin-top:200px;
     font-size:35px;
     border:none;
     background:rgba(0,0,0,0.4);
@@ -21,27 +21,27 @@
     padding:10px;
 }
 
-.precedent{
-    left:12%;
+#precedent{
+    margin-left:2%;
 }
 
-.suivant{
-    right:9%;
+#suivant{
+    margin-left:-4%;
 }
 
-.miniatures{
+#miniatures{
     margin-top:15px;
 	margin-left:30%;
   
 }
 
-.miniatures img{
+#miniatures img{
     width:15%;
     height:80px;
     border:2px solid transparent;
 }
 
-.miniatures img:hover{
+#miniatures img:hover{
     border:2px solid #A67C52;
 }
 
@@ -49,9 +49,9 @@
 /*css pour la mise en forme du texte*/
 #contenu1
 {
-	width:100%;
+	width:96%;
 	margin-left:5%;
-	min-height:1500px;
+	min-height:1200px;
 }
 #titre
 {

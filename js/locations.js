@@ -58,7 +58,7 @@ const biens = [
     {
 		type:"Apparement",
         titre: "Apparement haut standing",
-        image: "images/villa6.jpeg",
+        image: "images/Villa6.jpeg",
         localisation: "Ouakam",
         caracteristiques: "4 pièces 190 m²",
         description: "Appartement haut standing avec ascenseur, salle de sport, piscine commune et gardiennage permanent.",
@@ -128,11 +128,11 @@ for (var i = 0; i < biens.length; i++) {
         "<div id='bloc2'>" +
             "<p id='type'>" + biens[i].type + "</p>" +
             "<h3 id='titre'>" + biens[i].titre + "</h3>" +
-            "<p>" + biens[i].localisation + "</p>" +
-            "<p>" + biens[i].caracteristiques + "</p>" +
-            "<p>" + biens[i].description + "</p>" +
+            "<p id='localisation'>" + biens[i].localisation + "</p>" +
+            "<p >" + biens[i].caracteristiques + "</p>" +
+            "<p id='description'>" + biens[i].description + "</p>" +
             "<h3 id='prix'>" + biens[i].prix + "</h3>" +
-            "<a href='" + biens[i].lien + "'>Cliquez sur l'image</a>" +
+            "<a href=" + biens[i].lien + ">Voir plus</a>" +
         "</div>" +
 
     "</article>";
